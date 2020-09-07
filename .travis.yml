@@ -1,11 +1,10 @@
-language : node_js
-node_js : 12
+language: node_js
+node_js: 12
 
 stages:
   - transpile
 
-
- jobs:
+jobs:
   include:
   - name: Transpile
     stage: transpile
